@@ -1,5 +1,5 @@
 {
-  "homepage": "https://prajakta7magar.github.io/Currency_Convertor/",
+  "homepage": "https://prajakta7magar.github.io/Currency_Convertor",
   "name": "05-currency-app",
   "private": true,
   "version": "0.0.0",
@@ -9,13 +9,14 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-      "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "vite-plugin-pwa": "^1.2.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
