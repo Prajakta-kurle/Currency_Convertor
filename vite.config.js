@@ -4,6 +4,7 @@ import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
+  base:'/',
   plugins: [
     react(),
     VitePWA({
@@ -12,7 +13,7 @@ export default defineConfig({
         name: 'Currency Convertor App',
         short_name: 'currency convertor',
         description: 'currency convertor app',
-        theme_color: '#8B4513',
+        theme_color: '#704b31',
         background_color: '#ffffff',
         display: 'standalone',
         start_url: '/',
