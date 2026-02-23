@@ -11,7 +11,7 @@ export default defineConfig({
       registerType: 'autoUpdate',
       manifest: {
         name: 'Currency Convertor App',
-        short_name: 'currency convertor',
+        short_name: 'Currency',
         description: 'currency convertor app',
         theme_color: '#704b31',
         background_color: '#ffffff',
@@ -19,12 +19,12 @@ export default defineConfig({
         start_url: '/',
         icons: [
           {
-            src: '/public/image192.png',
+            src: '/image192.png',
             sizes: '192x192',
             type: 'image/png'
           },
           {
-            src: '/public/image512.png',
+            src: '/image512.png',
             sizes: '512x512',
             type: 'image/png'
           }
