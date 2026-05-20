@@ -1,8 +1,61 @@
-# React + Vite
+# Currency Converter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Currency Converter is a React-based web application that converts international currencies in real time using API integration. The application provides a simple and responsive user interface for converting different currencies such as USD to INR, EUR to JPY, and more.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+* Real-time currency conversion
+* Supports multiple international currencies
+* Responsive user interface
+* API integration for exchange rates
+* Easy currency selection and conversion
+
+---
+
+## Tech Stack
+
+### Frontend
+
+* React.js
+* JavaScript
+* HTML
+* CSS
+
+### Concepts Used
+
+* React Hooks
+* API Handling
+* Component-based UI
+
+---
+
+## Project Setup
+
+Install dependencies:
+
+```bash id="r7g9wl"
+npm install
+```
+
+Run the project:
+
+```bash id="j2kq1p"
+npm run dev
+```
+
+---
+
+## Project Highlights
+
+* Used React Hooks for state management
+* Integrated currency exchange API for real-time data
+* Built responsive UI for desktop and mobile devices
+* Implemented dynamic currency conversion functionality
+
+---
+
+## Author
+
+Prajakta Kurle
